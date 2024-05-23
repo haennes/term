@@ -68,11 +68,12 @@
 
 #let term(
   content: [],
+  width: 300pt,
 ) = {
   return align(
     left, 
     box(
-      width: 300pt,
+      width: width,
       stack(
         dir: ttb,
         align(left, toolbar()),
